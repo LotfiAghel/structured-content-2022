@@ -1,4 +1,4 @@
-FROM node:14
+FROM hub.yottab.io/library/node:16.20.0-alpine
 
 RUN mkdir /app
 ADD . /app
