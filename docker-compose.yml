@@ -5,7 +5,7 @@ services:
       dockerfile: ./studio/Dockerfile
       context: .
     ports:
-      - 3333:3333
+      - 8410:3333
     volumes:
       - ./studio:/app
 
@@ -14,6 +14,6 @@ services:
       dockerfile: ./web/Dockerfile
       context: .
     ports:
-      - 3000:3000
+      - 8420:3000
     volumes:
       - ./web:/app
